@@ -1,0 +1,47 @@
+.myNav {
+  padding: 10px 20px;
+}
+.brand {
+  color: #2c3333;
+}
+
+.bars {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  margin-left: auto;
+}
+.list {
+  position: relative;
+}
+.listItems {
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 200px;
+  border: 1px solid #3f4e4f;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 90;
+}
+.listLink,
+.bars {
+  cursor: pointer;
+  transition: background 0.3s linear;
+}
+.listLink {
+  padding: 3px;
+}
+.link{
+  color: #2c3639;
+}
+.listLink:not(:last-child) {
+  margin-bottom: 5px;
+}
+.listLink:hover,
+.bars:hover {
+  background-color: #e7f6f2;
+}

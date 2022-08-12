@@ -1,0 +1,8 @@
+.banner {
+    padding: 20px 0;
+}
+.bannerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
