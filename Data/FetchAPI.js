@@ -4,7 +4,7 @@ export const BaseURL = "https://bayut.p.rapidapi.com";
 export const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": process.env.REACT_APP_REAL_STATE_API,
+    "X-RapidAPI-Key": "01164c56dbmshe67a0210d63f2bep1db00ejsn19a5cbcf826c",
     "X-RapidAPI-Host": "bayut.p.rapidapi.com",
   },
 };
