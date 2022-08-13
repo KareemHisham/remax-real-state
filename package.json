@@ -1,6 +1,5 @@
 {
   "name": "real-state",
-  "homepage": "http://khisham.com/remax",
   "version": "0.1.0",
   "private": true,
   "scripts": {
